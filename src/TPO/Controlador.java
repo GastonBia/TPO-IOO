@@ -113,17 +113,17 @@ public class Controlador {
 		//VehiculoEventual ve = new VehiculoEventual("AB949KK", TipoVechiculo.Auto, ingreso);
 	}
 	private void inicializarCocheras(ArrayList<Cochera> arrayCocheras) {
-//		arrayCocheras.add(new Cochera(1, true, true));
+		arrayCocheras.add(new Cochera(1, true, true));
 		arrayCocheras.add(new Cochera(2, false, true));
-//		arrayCocheras.add(new Cochera(3, false, false));
-//		arrayCocheras.add(new Cochera(4, true, true));
-//		arrayCocheras.add(new Cochera(5, false, true));
-//		arrayCocheras.add(new Cochera(6, false, false));
-//		arrayCocheras.add(new Cochera(7, true, true));
-//		arrayCocheras.add(new Cochera(8, false, true));
-//		arrayCocheras.add(new Cochera(9, false, false));
-//		arrayCocheras.add(new Cochera(10, true, true));
-//		arrayCocheras.add(new Cochera(11, false, true));
-//		arrayCocheras.add(new Cochera(12, false, false));
+		arrayCocheras.add(new Cochera(3, false, false));
+		arrayCocheras.add(new Cochera(4, true, true));
+		arrayCocheras.add(new Cochera(5, false, true));
+		arrayCocheras.add(new Cochera(6, false, false));
+		arrayCocheras.add(new Cochera(7, true, true));
+		arrayCocheras.add(new Cochera(8, false, true));
+		arrayCocheras.add(new Cochera(9, false, false));
+		arrayCocheras.add(new Cochera(10, true, true));
+		arrayCocheras.add(new Cochera(11, false, true));
+		arrayCocheras.add(new Cochera(12, false, false));
 	}
 }
